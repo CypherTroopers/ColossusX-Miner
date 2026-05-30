@@ -1,7 +1,7 @@
 ## Setup Linux/Windows/mac
 
 ```bash
-git clone https://github.com/CypherTroopers/cypher.git
+git clone [https://github.com/CypherTroopers/cypher.git](https://github.com/CypherTroopers/ColossusX-Miner.git)
 cd cypher
  ```
 ## start node
