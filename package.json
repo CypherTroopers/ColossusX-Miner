@@ -1,0 +1,12 @@
+{
+  "name": "cypher-user-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "export-secret-key": "node scripts/export-secret-key.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
