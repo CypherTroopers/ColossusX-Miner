@@ -53,7 +53,7 @@ https://github.com/cypherium/cypher
 ### Linux / macOS / PowerShell
 Move to the cypher directory.
 ```bash
-cd ~/cypher
+cd ~/ColossusX-Miner
 ```
 
 Linux
