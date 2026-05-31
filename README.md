@@ -57,16 +57,16 @@ https://github.com/cypherium/cypher
 ##  Running a Node
 
 If you want to run the node in the background using pm2, nohup, or any other tool you are familiar with, use one of the following files depending on your environment:
-Linux
+***Linux***
 ```
 ./colossusX_linux.sh
 ```
 ```
-Windows PowerShell
+***Windows PowerShell***
 ```
 .\colossusX_windows.ps1
 ```
-macOS
+***macOS***
 ```
 ./colossusX_mac.sh
 ```
@@ -77,15 +77,15 @@ cd ~/ColossusX-Miner
 ```
 ## Accessing the IPC Console
 
-Linux
+***Linux***
 ```
 ./build/bin/cypher-linux-amd64 attach ipc:./chaindbname/cypher.ipc
 ```
-Apple Silicon Mac
+*** Mac***
 ```
 ./build/bin/cypher-darwin-arm64 attach ipc:./chaindbname/cypher.ipc
 ```
-Windows
+***Windows***
 ```
 .\build\bin\cypher.exe attach ipc:\\.\pipe\cypher.ipc
 ```
