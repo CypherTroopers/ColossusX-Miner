@@ -61,7 +61,6 @@ If you want to run the node in the background using pm2, nohup, or any other too
 ```
 ./colossusX_linux.sh
 ```
-```
 ***Windows PowerShell***
 ```
 .\colossusX_windows.ps1
@@ -72,7 +71,7 @@ If you want to run the node in the background using pm2, nohup, or any other too
 ```
 ### Linux / macOS / PowerShell
 Move to the ColossusX-Miner directory.
-```bash
+```
 cd ~/ColossusX-Miner
 ```
 ## Accessing the IPC Console
