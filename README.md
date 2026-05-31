@@ -91,7 +91,7 @@ cd ~/ColossusX-Miner
 ```
 
 
-## Export Secret Key for MetaMask
+## Export Secret Key for MetaMask or EVM wallet
 
 If you created a wallet using the following command:
 
