@@ -81,7 +81,7 @@ cd ~/ColossusX-Miner
 ```
 ./build/bin/cypher-linux-amd64 attach ipc:./chaindbname/cypher.ipc
 ```
-*** Mac***
+***Mac***
 ```
 ./build/bin/cypher-darwin-arm64 attach ipc:./chaindbname/cypher.ipc
 ```
