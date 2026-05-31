@@ -117,7 +117,7 @@ npm run export-secret-key -- ./chaindbname
 ```
 You will be asked for the keystore password:
 
-Keystore password:
+Keystore password:your password
 
 Enter the same password that you used when creating the wallet with:
 
