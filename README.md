@@ -1,3 +1,8 @@
+##  About the ColossusX-Miner Repository
+This repository reflects the binaries generated from the following branch:
+https://github.com/CypherTroopers/cypher/tree/colossusX_dev_test
+Because the binaries are already included, you can run a node immediately without building the source code yourself.
+
 ## Setup Linux/Windows/mac
 
 ```bash
@@ -49,12 +54,28 @@ web3.fromWei(eth.getBalance("0x your address"), "ether")
 For other console commands, please refer to the section near the bottom of the page below:
 https://github.com/cypherium/cypher
 
-##  If the node is running in the background, you can enter the console from the cypher directory using the following commands.
+##  Running a Node
+
+If you want to run the node in the background using pm2, nohup, or any other tool you are familiar with, use one of the following files depending on your environment:
+Linux
+```
+./colossusX_linux.sh
+```
+```
+Windows PowerShell
+```
+.\colossusX_windows.ps1
+```
+macOS
+```
+./colossusX_mac.sh
+```
 ### Linux / macOS / PowerShell
-Move to the cypher directory.
+Move to the ColossusX-Miner directory.
 ```bash
 cd ~/ColossusX-Miner
 ```
+## Accessing the IPC Console
 
 Linux
 ```
