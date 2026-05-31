@@ -57,6 +57,7 @@ https://github.com/cypherium/cypher
 ##  Running a Node(background)
 
 If you want to run the node in the background using pm2, nohup, or any other tool you are familiar with, use one of the following files depending on your environment:
+
 ***Linux***
 ```
 ./colossusX_linux.sh
