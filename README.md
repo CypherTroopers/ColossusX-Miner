@@ -9,7 +9,7 @@ Because the binaries are already included, you can run a node immediately withou
 git clone https://github.com/CypherTroopers/ColossusX-Miner.git
 cd ColossusX-Miner
  ```
-## start node
+## Running a Node
 
 ***Linux***
 ```bash
@@ -54,7 +54,7 @@ web3.fromWei(eth.getBalance("0x your address"), "ether")
 For other console commands, please refer to the section near the bottom of the page below:
 https://github.com/cypherium/cypher
 
-##  Running a Node
+##  Running a Node(background)
 
 If you want to run the node in the background using pm2, nohup, or any other tool you are familiar with, use one of the following files depending on your environment:
 ***Linux***
