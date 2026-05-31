@@ -89,3 +89,40 @@ cd ~/ColossusX-Miner
 ```
 .\build\bin\cypher.exe attach ipc:\\.\pipe\cypher.ipc
 ```
+
+
+## Export Secret Key for MetaMask
+
+If you created a wallet using the following command:
+
+***personal.newAccount("your password")***
+
+and you want to import that wallet into MetaMask or another wallet, you can export the private key from the local keystore file.
+
+Important: If you forget the password used when creating the wallet, the private key cannot be recovered.
+
+## Requirements
+
+Node.js and npm are required.
+
+## Usage
+
+Install dependencies:
+```
+npm install
+```
+Export the secret key:
+```
+npm run export-secret-key -- ./chaindbname
+```
+You will be asked for the keystore password:
+
+Keystore password:
+
+Enter the same password that you used when creating the wallet with:
+
+***personal.newAccount("your password")***
+
+The tool will then display your address and secret/private key.
+
+### Warning: Never share your private key with anyone.
